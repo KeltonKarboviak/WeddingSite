@@ -4,7 +4,7 @@
 /* TEAM */
     Name: Kelton Karboviak
     From: North Dakota
-    Position: Developer
+    Position: Website Developer
 
 
 /* THANKS */
