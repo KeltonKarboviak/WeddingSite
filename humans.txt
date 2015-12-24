@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+/* TEAM */
+    Name: 
+    From: 
+
+
+/* THANKS */
+    
+
+
+/* SITE */
+    Last update: 
+    Language: English
+    standards: HTML5, CSS3
+    Components: Normalize.css, jQuery, Bootstrap
+    IDE: NetBeans
