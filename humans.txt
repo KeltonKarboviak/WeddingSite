@@ -2,8 +2,9 @@
 # The humans responsible & technology colophon
 
 /* TEAM */
-    Name: 
-    From: 
+    Name: Kelton Karboviak
+    From: North Dakota
+    Position: Developer
 
 
 /* THANKS */
