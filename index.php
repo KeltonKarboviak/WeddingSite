@@ -60,14 +60,16 @@
 
         </div>
 
-        <div class="carousel-nav">
-            <a href="#" id="arrow-prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-            <ul class="carousel-dots">
-                <li class="dot active-dot">&bull;</li>
-                <li class="dot">&bull;</li>
-                <li class="dot">&bull;</li>
-            </ul>
+        <div class="slider-nav">
+            <div class="container">
+                <a href="#" id="arrow-prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <ul class="slider-dots">
+                    <li class="dot active-dot">&bull;</li>
+                    <li class="dot">&bull;</li>
+                    <li class="dot">&bull;</li>
+                </ul>
             <a href="#" id="arrow-next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
         </div>
 
 
