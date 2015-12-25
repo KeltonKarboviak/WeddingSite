@@ -26,13 +26,13 @@
         <![endif]-->
 
 
-        <div class="carousel">
+        <div id="carousel" class="carousel">
 
             <div class="slide active-slide">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <img src="img/10630668_10207256312582158_390677188105219688_o.jpg" />
+                            <img class="img-responsive" src="img/carousel/10630668_10207256312582158_390677188105219688_o.jpg" />
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <img src="img/12028880_10207256313062170_360605019752388227_o.jpg" />
+                            <img class="img-responsive" src="img/carousel/12028880_10207256313062170_360605019752388227_o.jpg" />
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <img src="img/12039020_10207256312742162_6916524555164949124_o.jpg" />
+                            <img class="img-responsive" src="img/carousel/12039020_10207256312742162_6916524555164949124_o.jpg" />
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <img src="img/mario.png" />
+                            <img class="img-responsive" src="img/carousel/mario.png" />
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <img src="img/evoOfMac.jpg" />
+                            <img class="img-responsive" src="img/carousel/evoOfMac.jpg" />
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <img src="img/controller.png" />
+                            <img class="img-responsive" src="img/carousel/controller.png" />
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,9 @@
 
         <div class="carousel-nav">
             <div class="container">
-                <a href="#" id="arrow-prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a id="arrow-prev" class="btn btn-default btn-sm" href="#">
+                    <span class="glyphicon glyphicon-chevron-left"></span> Prev
+                </a>
                 <ul class="carousel-dots">
                     <li class="dot active-dot">&bull;</li>
                     <li class="dot">&bull;</li>
@@ -101,7 +103,9 @@
                     <li class="dot">&bull;</li>
                     <li class="dot">&bull;</li>
                 </ul>
-            <a href="#" id="arrow-next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a id="arrow-next" class="btn btn-default btn-sm" href="#">
+                    Next <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
             </div>
         </div>
 
