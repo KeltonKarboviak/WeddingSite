@@ -53,14 +53,6 @@ hr {
 }
 
 /*
- * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
- */
-
-img {
-    vertical-align: middle;
-}
-
-/*
  * Remove default fieldset styles.
  */
 
@@ -115,6 +107,12 @@ textarea {
     height: 100%;
 }
 
+.slide img {
+    height: 470px;
+    display: block;
+    margin: auto;
+}
+
 .active-slide {
     display: block;
 }
@@ -129,6 +127,7 @@ textarea {
     display: inline-block;
     vertical-align: top;
     margin-top: 9px;
+    font-size: 2em;
 }
 
 #arrow-prev {

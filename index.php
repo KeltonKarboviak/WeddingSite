@@ -58,13 +58,46 @@
                 </div>
             </div>
 
+            <div class="slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img src="img/mario.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img src="img/evoOfMac.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img src="img/controller.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <div class="slider-nav">
+        <div class="carousel-nav">
             <div class="container">
                 <a href="#" id="arrow-prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-                <ul class="slider-dots">
+                <ul class="carousel-dots">
                     <li class="dot active-dot">&bull;</li>
+                    <li class="dot">&bull;</li>
+                    <li class="dot">&bull;</li>
+                    <li class="dot">&bull;</li>
                     <li class="dot">&bull;</li>
                     <li class="dot">&bull;</li>
                 </ul>
