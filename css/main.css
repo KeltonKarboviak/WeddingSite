@@ -19,7 +19,7 @@ textarea {
 }
 
 body {
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 1.4;
 }
 
@@ -30,12 +30,12 @@ body {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #B3D4FC;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #B3D4FC;
     text-shadow: none;
 }
 
@@ -47,7 +47,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #CCC;
     margin: 1em 0;
     padding: 0;
 }
@@ -76,7 +76,7 @@ textarea {
 
 .chromeframe {
     margin: 0.2em 0;
-    background: #ccc;
+    background: #CCC;
     color: #000;
     padding: 0.2em 0;
 }
@@ -84,6 +84,28 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
+/* Push body down for the navbar */
+body {
+    background: #222222 no-repeat fixed center top;
+    color: #FFF;
+    padding-top: 70px;
+}
+
+#site-menu {
+    border-color: #CCD103;
+}
+
+/* Menu hamburger */
+#site-menu .navbar-toggle {
+    color: #9D9D9D;
+}
+
+section {
+    border-bottom: 1px solid #008AFF;
+}
+
 
 /* ======================================
    Carousel Styles
@@ -93,7 +115,6 @@ textarea {
     position: relative;
     width: 100%;
     height: 470px;
-    border-bottom: 1px solid #ddd;
 }
 
 .slide {
@@ -126,16 +147,14 @@ textarea {
 #arrow-next {
     display: inline-block;
     vertical-align: top;
-    margin-top: 9px;
-    font-size: 2em;
 }
 
 #arrow-prev {
-    margin-right: 45px;
+    margin-right: 20px;
 }
 
 #arrow-next {
-    margin-left: 45px;
+    margin-left: 20px;
 }
 
 .carousel-dots {
@@ -146,14 +165,14 @@ textarea {
 }
 
 .carousel-dots li {
-    color: #bbbcbc;
+    color: #363636;
     display: inline;
     font-size: 30px;
     margin-right: 5px;
 }
 
 .carousel-dots li.active-dot {
-    color: #363636;
+    color: #BBBCBC;
 }
 
 
