@@ -28,7 +28,6 @@ body {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
-
 ::-moz-selection {
     background: #B3D4FC;
     text-shadow: none;
@@ -42,7 +41,6 @@ body {
 /*
  * A better looking default horizontal rule
  */
-
 hr {
     display: block;
     height: 1px;
@@ -55,7 +53,6 @@ hr {
 /*
  * Remove default fieldset styles.
  */
-
 fieldset {
     border: 0;
     margin: 0;
@@ -65,7 +62,6 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-
 textarea {
     resize: vertical;
 }
@@ -90,20 +86,25 @@ textarea {
 body {
     background: #222222 no-repeat fixed center top;
     color: #FFF;
-    padding-top: 70px;
+    padding-top: 60px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pacifico', Helvetica, sans-serif;
 }
 
 #site-menu {
-    border-color: #CCD103;
+    border-bottom: 4px solid #D5D854;
 }
 
-/* Menu hamburger */
-#site-menu .navbar-toggle {
+/* Change menu hamburger color when inverse colored nav */
+.navbar-inverse .navbar-toggle {
     color: #9D9D9D;
 }
 
 section {
-    border-bottom: 1px solid #008AFF;
+    border-bottom: 4px solid #0098AA;
+    padding-bottom: 20px;
 }
 
 
@@ -185,7 +186,6 @@ section {
 /*
  * Image replacement
  */
-
 .ir {
     background-color: transparent;
     border: 0;
@@ -204,7 +204,6 @@ section {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-
 .hidden {
     display: none !important;
     visibility: hidden;
@@ -213,7 +212,6 @@ section {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -229,7 +227,6 @@ section {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
     clip: auto;
@@ -243,7 +240,6 @@ section {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-
 .invisible {
     visibility: hidden;
 }
@@ -259,7 +255,6 @@ section {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-
 .clearfix:before,
 .clearfix:after {
     content: " "; /* 1 */
@@ -274,7 +269,6 @@ section {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-
 .clearfix {
     *zoom: 1;
 }
@@ -325,7 +319,6 @@ section {
     /*
      * Don't show links for images, or javascript/internal links
      */
-
     .ir a:after,
     a[href^="javascript:"]:after,
     a[href^="#"]:after {
