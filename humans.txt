@@ -3,17 +3,17 @@
 
 /* TEAM */
     Name: Kelton Karboviak
-    From: North Dakota
     Position: Website Developer
 
 
 /* THANKS */
-    
+    Name: Mary Lockett
+    Provided a lot of the writing and information for this page
 
 
 /* SITE */
-    Last update: 
+    Last update:
     Language: English
-    standards: HTML5, CSS3
+    Standards: HTML5 Boilerplate, CSS3
     Components: Normalize.css, jQuery, Bootstrap
     IDE: NetBeans

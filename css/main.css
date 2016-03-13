@@ -66,6 +66,7 @@ textarea {
     resize: vertical;
 }
 
+
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
@@ -77,10 +78,10 @@ textarea {
     padding: 0.2em 0;
 }
 
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
 
 /* Push body down for the navbar */
 body {
@@ -91,10 +92,20 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Pacifico', Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 0 0 15px;
 }
 
 #site-menu {
     border-bottom: 4px solid #D5D854;
+}
+
+/* Reduce padding-top from navbar-brand so that a 50x50 logo can fit more in the navbar */
+.navbar-brand {
+    padding-top: 10px;
 }
 
 /* Change menu hamburger color when inverse colored nav */
@@ -105,6 +116,15 @@ h1, h2, h3, h4, h5, h6 {
 section {
     border-bottom: 4px solid #0098AA;
     padding-bottom: 20px;
+}
+
+img {
+    margin: auto;
+}
+
+footer {
+    margin: 10px 0;
+    text-align: center;
 }
 
 
@@ -119,8 +139,6 @@ section {
 }
 
 .slide {
-    background: transparent url('../img/background/feature-gradient-transparent.png') center center no-repeat;
-    background-size: cover;
     display: none;
     position: absolute;
     top: 0;
@@ -175,8 +193,6 @@ section {
 .carousel-dots li.active-dot {
     color: #BBBCBC;
 }
-
-
 
 
 /* ==========================================================================
