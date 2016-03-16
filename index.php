@@ -4,18 +4,19 @@
 <!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="icon" type="image/x-icon" href="./favicon.ico" />
 
         <!-- Google Font -->
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Pacifico">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Pacifico" />
         <!-- Stylesheets -->
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/main.css" />
 
         <title>Kelton Loves Mary</title>
     </head>
